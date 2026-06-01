@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Françoise Tening Sène — Community Manager & Cr&aacute;ation de contenu</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500;600&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<!-- CURSOR -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-trail" id="cursorTrail"></div>
+
+<!-- LOADER -->
+<div id="loader">
+  <div class="loader-name">FT<span>S</span></div>
+  <div class="loader-bar-wrap"><div class="loader-bar"></div></div>
+</div>
+
+<!-- NAV -->
+<nav id="navbar">
+  <a href="#hero" class="nav-logo">Françoise Tening Sène</a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#about">À Propos</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#skills">Compétences</a></li>
+    <li><a href="#projects">Projets</a></li>
+    <li><a href="#formations">Formations</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <button class="nav-toggle" id="navToggle" onclick="document.getElementById('navLinks').classList.toggle('open')">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid-lines"></div>
+  <div class="hero-content">
+    <div class="hero-eyebrow">
+      <div class="hero-eyebrow-line"></div>
+      <span>Community Manager & Créatrice de Contenu</span>
+    </div>
+    <h1 class="hero-name">
+      FRANÇOISE<br>
+      <span class="line2">TENING SÈNE</span>
+    </h1>
+    <p class="hero-tagline">"Transformons votre présence en ligne en véritable impact."</p>
+    <div class="hero-ctas">
+      <a href="#services" class="btn-primary">Découvrir mes services</a>
+      <a href="#contact" class="btn-secondary">Me contacter</a>
+    </div>
+  </div>
+  <div class="hero-floating">
+    <div class="hero-stat">
+      <div class="hero-stat-num counter-anim" data-target="5">0</div>
+      <div class="hero-stat-label">Projets réalisés</div>
+    </div>
+    <div class="hero-stat">
+      <div class="hero-stat-num" style="font-family:'Cormorant Garamond',serif;font-size:2.5rem;font-weight:300;color:var(--gold);line-height:1;">&lt;1</div>
+      <div class="hero-stat-label">An d'expérience</div>
+    </div>
+    <div class="hero-stat">
+      <div class="hero-stat-num counter-anim" data-target="6">0</div>
+      <div class="hero-stat-label">Outils maîtrisés</div>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <div class="hero-scroll-line"></div>
+    <span>Scroll pour explorer</span>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="about-grid">
+    <div class="about-visual reveal">
+      <div class="about-img-frame">
+        <div class="about-frame-line"></div>
+        <div class="about-img-initials">FTS</div>
+      </div>
+    
+      <div class="about-tag-float">
+        <img src="FTS.png" alt="">
+        <span>Basée au</span>
+        <strong>Sénégal</strong>
+      </div>
+    </div>
+    <div class="about-text">
+      <div class="section-tag reveal"><span>À Propos</span></div>
+      <h2 class="section-title reveal reveal-delay-1">Une vision <em>digitale</em><br>tournée vers l'impact</h2>
+      <p class="reveal reveal-delay-2">Référente digitale passionnée, je combine créativité et stratégie pour construire des présences en ligne qui <strong>font la différence</strong>. Mon approche est à la fois artistique et analytique — chaque contenu est pensé pour engager, convaincre et convertir.</p>
+      <p class="reveal reveal-delay-2">Forte d'une formation pluridisciplinaire allant du droit public au marketing digital, j'apporte une perspective unique : celle d'une professionnelle qui comprend <strong>aussi bien le fond que la forme</strong>.</p>
+      <div class="about-pillars reveal reveal-delay-3">
+        <div class="pillar">
+          <div class="pillar-icon">✦</div>
+          <div class="pillar-title">Création de Contenu</div>
+          <div class="pillar-text">Visuels, vidéos et copywriting engageants pour vos réseaux</div>
+        </div>
+        <div class="pillar">
+          <div class="pillar-icon">◈</div>
+          <div class="pillar-title">Stratégie Digitale</div>
+          <div class="pillar-text">Planification et déploiement de votre présence en ligne</div>
+        </div>
+        <div class="pillar">
+          <div class="pillar-icon">◉</div>
+          <div class="pillar-title">Branding Digital</div>
+          <div class="pillar-text">Identité visuelle cohérente et impactante</div>
+        </div>
+        <div class="pillar">
+          <div class="pillar-icon">⬡</div>
+          <div class="pillar-title">Gestion de Communauté</div>
+          <div class="pillar-text">Animation et croissance de vos audiences</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="counters reveal reveal-delay-4">
+    <div class="counter-item">
+      <span class="counter-num counter-anim" data-target="5">0</span>
+      <span class="counter-label">Projets Réalisés</span>
+    </div>
+    <div class="counter-item">
+      <span class="counter-num counter-anim" data-target="6">0</span>
+      <span class="counter-label">Outils Maîtrisés</span>
+    </div>
+    <div class="counter-item">
+      <span class="counter-num" style="font-family:'Cormorant Garamond',serif;font-size:3.5rem;font-weight:300;color:var(--gold);line-height:1;display:block;margin-bottom:10px;">&lt;1 an</span>
+      <span class="counter-label">Expérience Professionnelle</span>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="section-tag reveal"><span>Ce que je fais</span></div>
+  <h2 class="section-title reveal reveal-delay-1">Mes <em>Services</em></h2>
+  <p class="section-sub reveal reveal-delay-2">Des solutions digitales sur mesure pour développer votre visibilité, renforcer votre image de marque et atteindre vos objectifs en ligne.</p>
+  <div class="services-grid">
+    <div class="service-card reveal reveal-delay-1">
+      <div class="service-num">01</div>
+      <span class="service-icon">✦</span>
+      <h3 class="service-title">Création de Contenus Réseaux Sociaux</h3>
+      <p class="service-desc">Conception de visuels percutants, de vidéos courtes engageantes et de captions optimisés. Je crée du contenu qui capte l'attention et reflète votre identité de marque.</p>
+      <a href="#contact" class="service-link">Demander un devis →</a>
+    </div>
+    <div class="service-card reveal reveal-delay-2">
+      <div class="service-num">02</div>
+      <span class="service-icon">◈</span>
+      <h3 class="service-title">Gestion Instagram & Facebook</h3>
+      <p class="service-desc">Prise en charge complète de vos comptes Meta : planification éditoriale, publication, modération, analyse de performances et croissance organique de votre audience.</p>
+      <a href="#contact" class="service-link">Demander un devis →</a>
+    </div>
+    <div class="service-card reveal reveal-delay-3">
+      <div class="service-num">03</div>
+      <span class="service-icon">◉</span>
+      <h3 class="service-title">Création de Sites Web</h3>
+      <p class="service-desc">Conception et développement de sites web professionnels sous WordPress. De la landing page au site vitrine complet, je livre des sites beaux, rapides et optimisés.</p>
+      <a href="#contact" class="service-link">Demander un devis →</a>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="skills-layout">
+    <div>
+      <div class="section-tag reveal"><span>Compétences</span></div>
+      <h2 class="section-title reveal reveal-delay-1">Outils &<br><em>Expertises</em></h2>
+      <div style="margin-top: 48px;">
+        <div class="skill-item reveal reveal-delay-1">
+          <div class="skill-header"><span class="skill-name">Canva</span><span class="skill-pct">95%</span></div>
+          <div class="skill-track"><div class="skill-fill" data-width="95"></div></div>
+        </div>
+        <div class="skill-item reveal reveal-delay-2">
+          <div class="skill-header"><span class="skill-name">CapCut</span><span class="skill-pct">88%</span></div>
+          <div class="skill-track"><div class="skill-fill" data-width="88"></div></div>
+        </div>
+        <div class="skill-item reveal reveal-delay-2">
+          <div class="skill-header"><span class="skill-name">WordPress</span><span class="skill-pct">82%</span></div>
+          <div class="skill-track"><div class="skill-fill" data-width="82"></div></div>
+        </div>
+        <div class="skill-item reveal reveal-delay-3">
+          <div class="skill-header"><span class="skill-name">HTML / CSS</span><span class="skill-pct">78%</span></div>
+          <div class="skill-track"><div class="skill-fill" data-width="78"></div></div>
+        </div>
+        <div class="skill-item reveal reveal-delay-3">
+          <div class="skill-header"><span class="skill-name">Bureautique</span><span class="skill-pct">92%</span></div>
+          <div class="skill-track"><div class="skill-fill" data-width="92"></div></div>
+        </div>
+        <div class="skill-item reveal reveal-delay-4">
+          <div class="skill-header"><span class="skill-name">Google Workspace</span><span class="skill-pct">90%</span></div>
+          <div class="skill-track"><div class="skill-fill" data-width="90"></div></div>
+        </div>
+        <div class="skill-item reveal reveal-delay-4">
+          <div class="skill-header"><span class="skill-name">Meta Ads</span><span class="skill-pct">75%</span></div>
+          <div class="skill-track"><div class="skill-fill" data-width="75"></div></div>
+        </div>
+      </div>
+    </div>
+    <div class="skills-info reveal reveal-delay-2">
+      <p style="color: var(--white-dim); line-height: 1.8; margin-bottom: 32px;">La maîtrise technique ne suffit pas — c'est la compréhension des enjeux de communication qui transforme un contenu ordinaire en véritable outil de croissance.</p>
+      <blockquote class="skills-quote">
+        "Le digital, c'est l'art de raconter une histoire — <strong>la vôtre</strong> — de manière à ce qu'elle résonne."
+      </blockquote>
+      <div style="margin-top: 48px; padding: 32px; border: 1px solid rgba(201,168,76,0.1); background: rgba(201,168,76,0.03);">
+        <div style="font-size: 0.65rem; letter-spacing: 0.3em; text-transform: uppercase; color: var(--gold); margin-bottom: 16px;">Disponibilité</div>
+        <div style="font-family: 'Playfair Display', serif; font-size: 1.3rem; margin-bottom: 8px;">Ouverte aux missions</div>
+        <div style="color: var(--white-dim); font-size: 0.85rem;">Freelance / Temps plein · Afrique de l'Ouest & Remote</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-tag reveal"><span>Portfolio</span></div>
+  <h2 class="section-title reveal reveal-delay-1">Projets <em>Réalisés</em></h2>
+  <p class="section-sub reveal reveal-delay-2">Une sélection de travaux représentatifs illustrant mon expertise en contenu digital, design et gestion de réseaux sociaux.</p>
+  <div class="projects-quote-banner reveal reveal-delay-3">
+    "Chaque projet est une histoire, <em>chaque ligne de code est une intention.</em>"
+  </div>
+  <div class="projects-grid">
+    <div class="project-card reveal reveal-delay-1">
+      <div class="project-bg" id="proj-bg-0">✦</div>
+      <div class="project-tag-always">Featured</div>
+      <div class="project-info-top">
+        <div class="project-cat">Création de Contenu</div>
+        <div class="project-title">Contenus Digitaux — Multi-Marques</div>
+      </div>
+      <div class="project-desc-bottom">
+        <div class="project-desc-text">Visuels Instagram, carrousels éducatifs et stories animées pour plusieurs marques — conçus sur Canva & CapCut.</div>
+      </div>
+      <label class="project-upload-btn" onclick="event.stopPropagation()" title="Ajouter une photo">
+        ＋ Photo
+        <input type="file" accept="image/*" style="display:none" onchange="setProjectImage(this,'proj-bg-0')">
+      </label>
+    </div>
+    <div class="project-card reveal reveal-delay-2">
+      <div class="project-bg" id="proj-bg-1">◈</div>
+      <div class="project-info-top">
+        <div class="project-cat">Design</div>
+        <div class="project-title">Identités Visuelles Canva</div>
+      </div>
+      <div class="project-desc-bottom">
+        <div class="project-desc-text">Chartes graphiques, kits de communication et templates réseaux sociaux adaptés à chaque univers de marque.</div>
+      </div>
+      <label class="project-upload-btn" onclick="event.stopPropagation()" title="Ajouter une photo">
+        ＋ Photo
+        <input type="file" accept="image/*" style="display:none" onchange="setProjectImage(this,'proj-bg-1')">
+      </label>
+    </div>
+    <div class="project-card reveal reveal-delay-3">
+      <div class="project-bg" id="proj-bg-2">◉</div>
+      <div class="project-info-top">
+        <div class="project-cat">Réseaux Sociaux</div>
+        <div class="project-title">Gestion Comptes Meta</div>
+      </div>
+      <div class="project-desc-bottom">
+        <div class="project-desc-text">Stratégie éditoriale, publication et analyse de performances — Instagram & Facebook avec croissance organique mesurable.</div>
+      </div>
+      <label class="project-upload-btn" onclick="event.stopPropagation()" title="Ajouter une photo">
+        ＋ Photo
+        <input type="file" accept="image/*" style="display:none" onchange="setProjectImage(this,'proj-bg-2')">
+      </label>
+    </div>
+    <div class="project-card reveal reveal-delay-4">
+      <div class="project-bg" id="proj-bg-3">⬡</div>
+      <div class="project-info-top">
+        <div class="project-cat">Web</div>
+        <div class="project-title">Sites Web</div>
+      </div>
+      <div class="project-desc-bottom">
+        <div class="project-desc-text">Sites vitrines professionnels — responsives, optimisés et pensés pour la conversion client.</div>
+      </div>
+      <label class="project-upload-btn" onclick="event.stopPropagation()" title="Ajouter une photo">
+        ＋ Photo
+        <input type="file" accept="image/*" style="display:none" onchange="setProjectImage(this,'proj-bg-3')">
+      </label>
+    </div>
+    <div class="project-card reveal reveal-delay-3">
+      <div class="project-bg" id="proj-bg-4">✧</div>
+      <div class="project-info-top">
+        <div class="project-cat">Stratégie</div>
+        <div class="project-title">Stratégie Éditoriale</div>
+      </div>
+      <div class="project-desc-bottom">
+        <div class="project-desc-text">Stratégies éditoriales déployées sur 6 mois pour des marques retail et service — portée et engagement en hausse.</div>
+      </div>
+      <label class="project-upload-btn" onclick="event.stopPropagation()" title="Ajouter une photo">
+        ＋ Photo
+        <input type="file" accept="image/*" style="display:none" onchange="setProjectImage(this,'proj-bg-4')">
+      </label>
+    </div>
+  </div>
+</section>
+
+<!-- FORMATIONS -->
+<section id="formations">
+  <div class="section-tag reveal"><span>Parcours</span></div>
+  <h2 class="section-title reveal reveal-delay-1">Formations &<br><em>Certifications</em></h2>
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: start;">
+    <div class="timeline reveal reveal-delay-2">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">Marketing Digital</div>
+        <div class="timeline-school">SIMPLON</div>
+        <div class="timeline-degree">Formation intensive en marketing digital, gestion des réseaux sociaux et stratégie de contenu</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">Secrétariat & Bureautique</div>
+        <div class="timeline-school">CADEGEFI SARL</div>
+        <div class="timeline-degree">Formation certifiante en secrétariat bureautique — outils Office, gestion administrative et rédaction professionnelle</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">Sciences Juridiques</div>
+        <div class="timeline-school">UNCHK</div>
+        <div class="timeline-degree">Licence 3 en Sciences Juridiques — Droit Public. Rigueur analytique et compréhension des cadres réglementaires</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">Éducation</div>
+        <div class="timeline-school">Ministère de l'Éducation</div>
+        <div class="timeline-degree">Formation de monitrice de collectivité éducative — pédagogie, encadrement et gestion de groupes</div>
+      </div>
+    </div>
+    <div class="reveal reveal-delay-3" style="padding-top: 20px;">
+      <p style="color: var(--white-dim); line-height: 1.8; margin-bottom: 32px; font-size: 0.95rem;">Mon parcours pluridisciplinaire — entre droit, éducation et marketing digital — forge une professionnelle aux multiples facettes, capable d'aborder les défis avec méthode et créativité.</p>
+      <div style="display: flex; flex-direction: column; gap: 16px;">
+        <div style="padding: 20px; border: 1px solid rgba(201,168,76,0.1); background: rgba(201,168,76,0.03);">
+          <div style="font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold); margin-bottom: 8px;">Langues</div>
+          <div>Français (natif) · Wolof (natif) · Anglais (professionnel)</div>
+        </div>
+        <div style="padding: 20px; border: 1px solid rgba(201,168,76,0.1); background: rgba(201,168,76,0.03);">
+          <div style="font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold); margin-bottom: 8px;">Centres d'intérêt</div>
+          <div style="color: var(--white-dim);">Tendances digitales · Branding · Design · Communication</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-tag reveal"><span>Contact</span></div>
+  <h2 class="section-title reveal reveal-delay-1">Travaillons<br><em>Ensemble</em></h2>
+  <div class="contact-layout">
+    <div class="reveal reveal-delay-2">
+      <p style="color: var(--white-dim); line-height: 1.8; margin-bottom: 40px;">Vous avez un projet ? Une vision ? Je suis à votre écoute pour transformer vos idées en stratégies digitales concrètes et efficaces.</p>
+      <a href="mailto:francoise.tening@gmail.com" class="contact-line" style="text-decoration:none;display:flex;">
+        <div class="contact-icon">✉</div>
+        <div>
+          <div class="contact-label">Email — Cliquez pour écrire</div>
+          <div class="contact-value" style="color:var(--gold);">francoiseteningsene@gmail.com</div>
+        </div>
+      </a>
+      <a href="tel:+221770000000" class="contact-line" style="text-decoration:none;display:flex;">
+        <div class="contact-icon">📞</div>
+        <div>
+          <div class="contact-label">Téléphone — Cliquez pour appeler</div>
+          <div class="contact-value" style="color:var(--gold);font-size:1.05rem;font-weight:500;">+221 78 245 83 53</div>
+        </div>
+      </a>
+      <div class="contact-line">
+        <div class="contact-icon">📍</div>
+        <div>
+          <div class="contact-label">Localisation</div>
+          <div class="contact-value">Sénégal — Disponible Remote</div>
+        </div>
+      </div>
+      <div class="contact-line">
+        <div class="contact-icon">⏱</div>
+        <div>
+          <div class="contact-label">Disponibilité</div>
+          <div class="contact-value">Ouverte aux nouvelles collaborations</div>
+        </div>
+      </div>
+     <div class="socials">
+  <a href="https://www.instagram.com/senebeautee/" target="_blank" class="social-btn">
+    <i class="fa-brands fa-instagram"></i>
+  </a>
+
+  <a href="https://www.linkedin.com/in/fran%C3%A7oise-t%C3%A9ning-s%C3%A9ne-74260323a/" class="social-btn" title="LinkedIn">
+    <i class="fa-brands fa-linkedin-in"></i>
+  </a>
+
+  <a href="https://www.tiktok.com/@senebeaute15" class="social-btn" title="TikTok">
+    <i class="fa-brands fa-tiktok"></i>
+  </a>
+
+   <a href="https://www.facebook.com/profile.php?id=61570703326481" target="_blank" class="social-btn" title="Facebook">
+    <i class="fa-brands fa-facebook-f"></i>
+  </a>
+
+  <a href="https://www.youtube.com/@francoiseteningsene976" target="_blank" class="social-btn" title="YouTube">
+    <i class="fa-brands fa-youtube"></i>
+  </a>
+</div>
+    </div>
+    <form id="contact-form">
+
+  <div class="form-group">
+    <label class="form-label">Nom complet</label>
+    <input type="text" id="nom" placeholder="Votre nom" required>
+  </div>
+
+  <div class="form-group">
+    <label class="form-label">Adresse Email</label>
+    <input type="email" id="email" placeholder="votre@email.com" required>
+  </div>
+
+  <div class="form-group">
+    <label class="form-label">Message</label>
+    <textarea id="message" placeholder="Décrivez votre projet..." required></textarea>
+  </div>
+
+  <button type="submit" class="btn-submit">
+    Envoyer le Message
+  </button>
+<p id="form-status"></p>
+      <div id="commentaires-liste">
+        <!-- Les commentaires s'afficheront ici -->
+    </div>
+</form>
+
+
+<section id="commentaires">
+    <h2>Commentaire</h2>
+
+    <form id="commentaire-form">
+        <input type="text" id="auteur" placeholder="Ton nom" required>
+        <textarea id="texte" placeholder="Ton message..." required></textarea>
+        <button type="submit">Publier</button>
+        
+    </form>
+
+</section>
+
+    </div>
+  </div>
+  </form>
+
+</section>
+
+<!-- FOOTER -->
+ 
+<footer>
+  <div class="footer-logo">FTS · Portfolio</div>
+  <div class="footer-copy">© 2025 <span>Françoise Tening Sène</span>. Tous droits réservés.</div>
+  <a href="cv.html" class="btn-cv">↓ Télécharger CV</a>
+</footer>
+
+<!-- WHATSAPP FLOATING BUTTON -->
+<a href="https://wa.me/message/6QQFVT5GSD52K1" target="_blank" class="whatsapp-float" title="Contacter sur WhatsApp">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="30" height="30" fill="none">
+    <path fill="#ffffff" d="M24 4C13 4 4 13 4 24c0 3.6 1 7 2.7 9.9L4 44l10.4-2.7C17.2 43 20.5 44 24 44c11 0 20-9 20-20S35 4 24 4z"/>
+    <path fill="#25D366" d="M24 6.4C14.3 6.4 6.4 14.3 6.4 24c0 3.4.95 6.6 2.6 9.3l.4.6-1.7 6.1 6.3-1.65.6.35A17.4 17.4 0 0024 41.6c9.7 0 17.6-7.9 17.6-17.6S33.7 6.4 24 6.4z"/>
+    <path fill="#ffffff" d="M18.1 14.5c-.4-.9-.8-.9-1.2-.9-.3 0-.7 0-1.1 0s-1 .15-1.55.75c-.55.6-2.1 2.05-2.1 5s2.15 5.8 2.45 6.2c.3.4 4.15 6.65 10.25 9.05 5.05 2 6.1 1.6 7.2 1.5 1.1-.1 3.55-1.45 4.05-2.85.5-1.4.5-2.6.35-2.85-.15-.25-.55-.4-1.15-.7s-3.55-1.75-4.1-1.95c-.55-.2-.95-.3-1.35.3-.4.6-1.55 1.95-1.9 2.35-.35.4-.7.45-1.3.15-.6-.3-2.55-1-4.85-3.15-1.8-1.7-3-3.8-3.35-4.4-.35-.6-.04-.93.26-1.23.27-.27.6-.7.9-1.05.3-.35.4-.6.6-1 .2-.4.1-.75-.05-1.05-.15-.3-1.3-3.2-1.8-4.35z"/>
+  </svg>
+  <span class="wa-tooltip">Discutons sur WhatsApp</span>
+</a>
+<script type="module" src="firebase-config.js"></script>
+<script type="module" src="formulaire-contact.js"></script>
+<script src="script.js"></script>
+<script type="module" src="commentaires.js"></script>
+</body>
+</html>
