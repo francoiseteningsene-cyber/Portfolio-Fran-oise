@@ -425,22 +425,21 @@
     Envoyer le Message
   </button>
 <p id="form-status"></p>
-      <div id="commentaires-liste">
-        <!-- Les commentaires s'afficheront ici -->
-    </div>
+     
+</div>
 </form>
 
-
 <section id="commentaires">
-    <h2>Commentaire</h2>
-
+<h2>Commentaire</h2>
+<div class="commentaires-wrapper">
     <form id="commentaire-form">
         <input type="text" id="auteur" placeholder="Ton nom" required>
         <textarea id="texte" placeholder="Ton message..." required></textarea>
-        <button type="submit">Publier</button>
-        
+        <button type="submit" class="btn-publier">Publier</button>
+        <p id="successMsg" style="display:none; color:#C9A84C;">Commentaire publié !</p>
     </form>
-
+    <div id="commentaires-liste"></div>
+</div>
 </section>
 
     </div>

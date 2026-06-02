@@ -1068,3 +1068,69 @@ background-position: center top;
     transform: translateY(0);
   }
 }
+#commentaires {
+    padding: 80px 6%;
+}
+
+#commentaires h2 {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.commentaires-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+
+
+#commentaire-form {
+    flex: 1;
+    min-width: 500px;
+    max-width: 600px;
+}
+
+#commentaires-liste {
+    flex: 1;
+    min-width: 500px;
+    max-width: 600px;
+}
+
+
+#commentaires-liste {
+    flex: 1;
+    min-width: 500px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.comment-card {
+    background: #111;
+    border: 1px solid #C9A84C;
+    border-radius: 10px;
+    padding: 16px 20px;
+}
+
+.comment-author {
+    color: #C9A84C;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.comment-date {
+    font-size: 0.75rem;
+    color: rgba(245,240,232,0.5);
+    margin-bottom: 8px;
+}
+
+.comment-text {
+    color: rgba(245,240,232,0.8);
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
