@@ -1134,3 +1134,14 @@ background-position: center top;
     font-size: 0.9rem;
     line-height: 1.5;
 }
+@media (max-width: 768px) {
+    .commentaires-wrapper {
+        flex-direction: column;
+    }
+    
+    #commentaire-form,
+    #commentaires-liste {
+        min-width: 100%;
+        max-width: 100%;
+    }
+}
