@@ -1073,9 +1073,10 @@ background-position: center top;
 }
 
 #commentaires h2 {
-    text-align: left;
-    margin-bottom: 40px;
+    font-size: 2rem;
+    letter-spacing: 5px;
 }
+
 
 .commentaires-wrapper {
     display: flex;
