@@ -331,6 +331,9 @@
     width: 100%;
     aspect-ratio: 3/4;
     background: var(--dark2);
+    background-image: url('FTS.png');
+background-size: cover;
+background-position: center top;
     border: 1px solid rgba(201,168,76,0.15);
     position: relative;
     overflow: hidden;
