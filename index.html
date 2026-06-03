@@ -430,15 +430,21 @@
 </form>
 
 <section id="commentaires">
-<h2>Commentaire</h2>
+
 <div class="commentaires-wrapper">
-    <form id="commentaire-form">
-        <input type="text" id="auteur" placeholder="Ton nom" required>
-        <textarea id="texte" placeholder="Ton message..." required></textarea>
-        <button type="submit" class="btn-publier">Publier</button>
-        <p id="successMsg" style="display:none; color:#C9A84C;">Commentaire publié !</p>
-    </form>
-    <div id="commentaires-liste"></div>
+    <div class="commentaires-col">
+        <h3>Laisser un commentaire</h3>
+        <form id="commentaire-form">
+            <input type="text" id="auteur" placeholder="Ton nom" required>
+            <textarea id="texte" placeholder="Ton message..." required></textarea>
+            <button type="submit" class="btn-publier">PUBLIER</button>
+            <p id="successMsg" style="display:none; color:#C9A84C;">Commentaire publié !</p>
+        </form>
+    </div>
+    <div class="commentaires-col">
+        <h3>Commentaires publics</h3>
+        <div id="commentaires-liste"></div>
+    </div>
 </div>
 </section>
 

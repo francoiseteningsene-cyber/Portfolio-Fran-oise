@@ -1084,6 +1084,7 @@ background-position: center top;
     gap: 60px;
     align-items: flex-start;
     flex-wrap: nowrap;
+    margin-left: 100px;
 }
 
 
@@ -1145,4 +1146,16 @@ background-position: center top;
         min-width: 100%;
         max-width: 100%;
     }
+}
+.commentaires-col h3 {
+    color: var(--gold);
+    font-size: 1.3rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+
+.commentaires-col {
+    flex: 1;
 }
